@@ -16,6 +16,7 @@
     "leaflet": "^1.9.3",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.43",
+    "normalize.css": "^8.0.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {

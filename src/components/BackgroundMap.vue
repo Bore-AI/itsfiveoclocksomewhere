@@ -22,7 +22,6 @@ defineProps<{
     <l-map
       ref="map"
       :options="{
-        attributionControl: false,
         zoomControl: false,
       }"
       :zoom="zoom"
@@ -30,7 +29,8 @@ defineProps<{
       :use-global-leaflet="false"
     >
       <l-tile-layer
-        url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+        :url="`https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}{r}?access_token=pk.eyJ1IjoiaG92ZWRib3JlbiIsImEiOiJjbGg3cWNya20wMTU2M2xqZzFuZGluMmJvIn0.-O90x0O080LRyxFWMRob2Q`"
+        attribution='© <a href="https://www.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         layer-type="base"
         name="OpenStreetMap"
       />
