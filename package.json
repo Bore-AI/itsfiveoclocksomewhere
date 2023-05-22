@@ -14,6 +14,8 @@
   "dependencies": {
     "@microsoft/applicationinsights-web": "^3.0.1",
     "@vue-leaflet/vue-leaflet": "^0.9.0",
+    "flag-icons": "^6.6.6",
+    "i18n-iso-countries": "^7.6.0",
     "leaflet": "^1.9.4",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.43",
